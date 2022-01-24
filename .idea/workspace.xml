@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38e9a6b7-5f62-40f5-99eb-1e563de7abf8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/ICN/assets/img/landing/IND_Logo_2022_EN.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/layout/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/layout/_layout.scss" afterDir="false" />
@@ -31,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../email-newsletter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -54,6 +54,7 @@
       <workItem from="1641991930020" duration="2575000" />
       <workItem from="1642084975498" duration="1323000" />
       <workItem from="1642160740735" duration="12000" />
+      <workItem from="1643019461688" duration="721000" />
     </task>
     <servers />
   </component>

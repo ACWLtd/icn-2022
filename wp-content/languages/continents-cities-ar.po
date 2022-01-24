@@ -1,15 +1,15 @@
-# Translation of WordPress - 5.3.x - Continents & Cities in Arabic
-# This file is distributed under the same license as the WordPress - 5.3.x - Continents & Cities package.
+# Translation of WordPress - 5.5.x - Continents & Cities in Arabic
+# This file is distributed under the same license as the WordPress - 5.5.x - Continents & Cities package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-26 15:38:59+0000\n"
+"PO-Revision-Date: 2021-10-16 22:42:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ar\n"
-"Project-Id-Version: WordPress - 5.3.x - Continents & Cities\n"
+"Project-Id-Version: WordPress - 5.5.x - Continents & Cities\n"
 
 #: wp-admin/includes/continents-cities.php:554
 msgid "Yap"
@@ -457,7 +457,7 @@ msgstr "برلين"
 
 #: wp-admin/includes/continents-cities.php:439
 msgid "Belgrade"
-msgstr "بيلقراد"
+msgstr "بلغراد"
 
 #: wp-admin/includes/continents-cities.php:438
 msgid "Belfast"
@@ -1179,7 +1179,7 @@ msgstr "لونجي يارباين"
 
 #: wp-admin/includes/continents-cities.php:254
 msgid "Arctic"
-msgstr "أركتيك"
+msgstr "المنطقة القطبية الشمالية"
 
 #: wp-admin/includes/continents-cities.php:252
 msgid "Vostok"
@@ -1231,7 +1231,7 @@ msgstr "كيسي"
 
 #: wp-admin/includes/continents-cities.php:240
 msgid "Antarctica"
-msgstr "أنتراكتيكا"
+msgstr "المنطقة القطبية الجنوبية"
 
 #: wp-admin/includes/continents-cities.php:238
 msgid "Yellowknife"

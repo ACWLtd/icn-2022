@@ -137,7 +137,7 @@ $showCountdown = $now < $launchDate;  ?>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <label class="hashtag"><strong>#VoiceToLead #IND2021</strong></label>
+                            <!--<label class="hashtag"><strong>#VoiceToLead #IND2021</strong></label>-->
                             <div class="clr50"></div>
                             <div class="mb-5 text-center">
                                 <?php the_content(); ?>

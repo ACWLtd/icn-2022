@@ -1,0 +1,71 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <h1 id="whip">whip</h1>
+<p>A WordPress package to nudge users to upgrade their software versions (starting with PHP)</p>
+<p><img src="./images/wp-message.png" alt="Screenshot of the WordPress notice"></p>
+<h2 id="requirements">Requirements</h2>
+<p>The following versions of PHP are supported:</p>
+<ul>
+<li>PHP 5.2</li>
+<li>PHP 5.3</li>
+<li>PHP 5.4</li>
+<li>PHP 5.5</li>
+<li>PHP 5.6</li>
+<li>PHP 7.0</li>
+<li>PHP 7.1</li>
+</ul>
+<p>WordPress is also required for certain functionality:</p>
+<ul>
+<li>The <code>WPMessagePresenter</code> requires WordPress or a function called <code>add_action</code>, to hook into WordPress.</li>
+<li>The <code>PHPVersionDetector</code> requires WordPress or a function called <code>__</code>, to translate strings.</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<pre><code class="lang-bash">$ composer require yoast/whip 
+</code></pre>
+<h2 id="usage">Usage</h2>
+<p>The easiest way to use Whip in WordPress is just by using the included function to check the versions. In this case checking if PHP 5.6 or greater is installed: </p>
+<pre><code class="lang-php">whip_wp_check_versions( array(
+    &#39;php&#39; =&gt; &#39;&gt;=5.6&#39;,
+) );
+</code></pre>
+<p>This will show a message to all users of your plugin on PHP5.2 to PHP 5.5. By default the message will be shown on every page of the admin and to every user. It is up to the implementing plugin to restrict this to certain users and/or pages.</p>
+<h3 id="adding-a-message-as-a-host">Adding a message as a host</h3>
+<p>It is possible to add a custom message to the PHP version message by setting specific environment variables:</p>
+<pre><code class="lang-php">putenv( &quot;WHIP_NAME_OF_HOST=Name of the host&quot; );
+putenv( &quot;WHIP_MESSAGE_FROM_HOST_ABOUT_PHP=A message from the host&quot; );
+</code></pre>
+<p>The <code>WHIP_NAME_OF_HOST</code> environment variable could be reused in the future for showing messages about different software packages.</p>
+<p>Both the name and the message for PHP can also be changed using WordPress filters:</p>
+<pre><code class="lang-php">function my_host__name_for_whip() {
+    return &#39;Name of the host&#39;;
+}
+add_filter( &#39;whip_name_of_host&#39;, &#39;my_host__name_for_whip&#39; );
+
+function my_host__php_message_for_whip( $message ) {
+    return &#39;A message from the host&#39;;
+}
+add_filter( &#39;whip_message_from_host_about_php&#39;, &#39;my_host__php_message_for_whip&#39; );
+</code></pre>
+<p>The WordPress filters can also read the value previously set by the environment variables.</p>
+<p>As a general rule, the filter is the same as the environment variable, but lowercased.</p>
+<h3 id="linking-to-the-wordpress-org-hosting-page">Linking to the WordPress.org hosting page</h3>
+<p>We have created a hosting overview page on yoast.com which only contains hosts that we&#39;ve vetted. The PHP message links to this page by default. If you really prefer to link to the WordPress.org hosting page that is possible. Just use the <code>whip_hosting_page_url_wordpress</code> filter:</p>
+<pre><code class="lang-php">add_filter( &#39;whip_hosting_page_url_wordpress&#39;, &#39;__return_true&#39; );
+</code></pre>
+<h2 id="backwards-compatibility-policy">Backwards compatibility policy</h2>
+<p>We follow <a href="http://semver.org/">semantic versioning</a> with an extra strict rule for MAJOR versions. We will do a major version bump whenever we add new methods. We have to do this because of the shared namespace in PHP. When this package will be used in multiple plugins we cannot safely add and use a method without bumping a major version. This is because the version without the new method may be autoloaded and then a fatal error occurs.</p>
+<p>This also means that any major version bump is accompanied by a change of all class names in the package. So for version 2 of this package all classes will be postfixed with <code>_v2</code>. This prevents fatal errors when two plugins include different versions of this package.</p>
+<h2 id="changelog">Changelog</h2>
+<h2 id="security">Security</h2>
+<p>If you discover any security related issues, please email <a href="mailto:security@yoast.com">security@yoast.com</a> instead of using the issue tracker.</p>
+<h2 id="credits">Credits</h2>
+<ul>
+<li><a href="https://github.com/yoast">Team Yoast</a></li>
+</ul>
+
+      </body>
+    </html>

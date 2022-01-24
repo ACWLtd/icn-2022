@@ -48,8 +48,9 @@ li{
   box-sizing: border-box;
 
   .logo-header {
-    //width: 311px;
+    width: 311px;
     max-width: 100%;
+    object-fit:contain;
   }
   .logo-inline {
     text-align: right;

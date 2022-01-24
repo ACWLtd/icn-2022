@@ -72,8 +72,8 @@ $ln_lnk = get_field('linkedin_link','option'); ?>
     <header>
         <div class="container">
             <div class="row row-header">
-                <div class="col-xs-11 col-sm-12 text-xs-center text-sm-center col-md-5 col-lg-5 col-xl-4 col-logo">
-                    <a href="<?= get_site_url(); ?>"  title="<?= get_bloginfo(); ?>"><img class="logo-header" src="<?= get_template_directory_uri(); ?>/assets/img/landing/ICN_Logo_2021.png" class="logo-main img-fluid" alt="<?= get_bloginfo(); ?>"/></a>
+                <div class="col-xs-11 col-sm-12 text-xs-center text-sm-center col-md-5 col-lg-5 col-xl-4 col-logo h-100 py-3">
+                    <a href="<?= get_site_url(); ?>"  title="<?= get_bloginfo(); ?>"><img class="logo-header logo-main img-fluid h-100" src="<?= get_template_directory_uri(); ?>/assets/img/landing/IND_Logo_2022_EN.svg" alt="<?= get_bloginfo(); ?>"/></a>
                 </div>
                 <div class="col-xs-12 col-sm-12 text-xs-center text-sm-center col-md-6 col-lg-6 col-xl-8 col-nav">
                     <div class="row">
