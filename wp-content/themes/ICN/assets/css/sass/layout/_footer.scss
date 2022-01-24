@@ -1,0 +1,136 @@
+#footer{
+  background-color: $color_icn_blue;
+  color: $color__white;
+  padding:50px;
+
+  .contactlnks{
+    width: 100%;
+    text-align: center;
+    li{
+      display: inline-block;
+      list-style-type: none;
+      color: $color__white;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+
+      a{
+        color:$color__white;
+      }
+    }
+
+    /* one item */
+    li:first-child:nth-last-child(1) {
+      width: 100%;
+    }
+
+    @media only screen and (min-width: 993px) {
+
+      /* two items */
+      li:first-child:nth-last-child(2),
+      li:first-child:nth-last-child(2) ~ li {
+        width: 45%;
+      }
+
+      /* three items */
+      li:first-child:nth-last-child(3),
+      li:first-child:nth-last-child(3) ~ li {
+        width: 30%;
+      }
+
+      /* four items */
+      li:first-child:nth-last-child(4),
+      li:first-child:nth-last-child(4) ~ li {
+        width: 20%;
+      }
+
+      /* five items */
+      li:first-child:nth-last-child(5),
+      li:first-child:nth-last-child(5) ~ li {
+        width: 15%;
+      }
+
+      /* five items */
+      li:first-child:nth-last-child(6),
+      li:first-child:nth-last-child(6) ~ li {
+        width: 12%;
+      }
+    }
+
+  }
+}
+
+#footer_links{
+  background-color: $color_pink_2020;
+  position: relative;
+  ul.pagelnks{
+
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 0;
+
+    li{
+      display: inline-block;
+      padding: 0 20px;
+      a{
+        color:$color__white;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  ul.socialnks{
+    position: absolute;
+    right: 2%;
+    top: 18px;
+    li{
+      display: inline;
+      list-style-type: none;
+      img{
+        width: 30px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  #footer{
+    text-align: center;
+  }
+
+  #footer_links ul.pagelnks li {
+    display: block;
+  }
+  #footer_links ul.socialnks {
+    clear:both;
+    position: static;
+    text-align: center;
+    margin: 0 auto;
+    right: auto;
+    top: auto;
+    padding-bottom: 10px;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #footer .contactlnks li:first-child:nth-last-child(4), #footer .contactlnks li:first-child:nth-last-child(4)~li{
+    width: 100%;
+  }
+  #footer .contactlnks li{
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .text-acw{
+    text-align: center;
+  }
+  .contactlnks{
+    li{
+      display: block;
+    }
+  }
+}

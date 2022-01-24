@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "description": "node packages for the ICN Micro Website roject",
+  "author": "ACW",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-install": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-order": "^1.2.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^2.0.0",
+    "merge-stream": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "gulp-install": "^1.1.0",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.11",
+    "tether": "^1.3.7"
+  }
+}

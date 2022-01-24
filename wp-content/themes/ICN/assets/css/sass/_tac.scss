@@ -1,0 +1,73 @@
+/* Tarteaucitron style */
+
+/* ----------------------------------------- */
+/* 		   GDPR banner 		     */
+/* ----------------------------------------- */
+
+#tarteaucitronRoot div,
+#tarteaucitronRoot p,
+#tarteaucitronRoot span,
+#tarteaucitronRoot ul,
+#tarteaucitronRoot a,
+#tarteaucitronRoot li,
+#tarteaucitronRoot h1,
+#tarteaucitronRoot h2,
+#tarteaucitronRoot h3,
+#tarteaucitronRoot h4,
+#tarteaucitronRoot h5,
+#tarteaucitronRoot button{
+  font-family: 'Open Sans', Arial, Verdana, sans-serif !important;
+}
+
+#tarteaucitronRoot #tarteaucitronAlertBig {
+  background: #2A315B !important;
+  color: #fff;
+  display: none;
+  font-size: 15px !important;
+  left: 0;
+  position: fixed;
+  box-sizing: content-box;
+  z-index: 2147483645;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  margin: auto;
+  width: 100%;
+}
+
+#tarteaucitronIcon #tarteaucitronManager img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+  background: transparent !important;
+ }
+
+#tarteaucitron #tarteaucitronServices .tarteaucitronMainLine {
+  background: #2A315B !important;
+  border: 1px solid #2A315B !important;
+  border-left: 1px solid #2A315B !important;
+  border-top: 1px solid #2A315B !important;
+  margin-bottom: 0;
+  margin-top: 21px;
+  position: relative;
+}
+
+#tarteaucitronAlertSmall #tarteaucitronCookiesListContainer #tarteaucitronCookiesList .tarteaucitronTitle,
+#tarteaucitron #tarteaucitronServices .tarteaucitronTitle button,
+#tarteaucitron #tarteaucitronInfo,
+#tarteaucitron #tarteaucitronServices .tarteaucitronDetails {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px 0px 0px;
+    padding: 5px 20px;
+    text-align: left;
+    width: auto;
+    background: #2A315B !important;
+}
+
+.tac_activate {
+  background: #2A315B !important;
+  color: white!important;
+}
+

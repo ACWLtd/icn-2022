@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38e9a6b7-5f62-40f5-99eb-1e563de7abf8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/ICN/assets/img/landing/IND_Logo_2022_EN.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/layout/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/variables/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ICN/assets/css/sass/variables/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ICN/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ICN/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ICN/page-resources.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ICN/page-resources.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/ICN/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ICN/style.min.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qZVEyWKvMlSqhXlWVgnxqLXGc9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../email-newsletter" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\icn-2022\wp-content\themes\ICN\assets\img\landing" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38e9a6b7-5f62-40f5-99eb-1e563de7abf8" name="Default Changelist" comment="" />
+      <created>1617286991096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617286991096</updated>
+      <workItem from="1617286992168" duration="75000" />
+      <workItem from="1641813384068" duration="631000" />
+      <workItem from="1641911472205" duration="1461000" />
+      <workItem from="1641991930020" duration="2575000" />
+      <workItem from="1642084975498" duration="1323000" />
+      <workItem from="1642160740735" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1642160749796">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1642160749796" />
+    <state x="478" y="141" width="579" height="534" key="find.popup" timestamp="1641487687846">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="478" y="141" width="579" height="534" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1641487687846" />
+  </component>
+</project>

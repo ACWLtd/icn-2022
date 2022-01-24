@@ -1,0 +1,33 @@
+/* Define all the colors */
+
+$color__white: #FFF;
+$color__black: #000;
+$color_cgrey: #f4f4f4;
+$color__lgrey: #999;
+$color_text_grey: #58595b;
+$color_icn_blue: #2e2f8e;
+$color_icn_mblue: #3456b2;
+$color_icn_orange: #BD338B;  // NOW IT'S RED IN 2018
+
+$color-primary: #312783; // blue
+$color-secondary: #12a19a; // green
+$color-tertiary: #f3960d; // orange
+$super-dark-purple: #211351; // as name suggests
+//$color_pink_2020: #BD338B;
+$color_pink_2020: #12a19a;
+
+
+/* Color Mixin */
+@mixin Oswaldfont{
+  font-family: 'Oswald', sans-serif;
+}
+
+@for $i from 1 through 10 {
+
+  $width: percentage(1 / $i);
+
+  .width-#{$i}{
+    width: $width;
+  }
+
+}

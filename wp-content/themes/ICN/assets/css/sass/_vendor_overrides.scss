@@ -1,0 +1,11 @@
+.modal-backdrop{
+  display: none;
+}
+
+.modal-pdf.show{
+  .modal-dialog{
+    max-width: 80vw;
+  }
+}
+
+
