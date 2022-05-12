@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38e9a6b7-5f62-40f5-99eb-1e563de7abf8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/ICN/page-resources.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/ICN/page-resources.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +49,7 @@
       <workItem from="1642084975498" duration="1323000" />
       <workItem from="1642160740735" duration="12000" />
       <workItem from="1643019461688" duration="2338000" />
-      <workItem from="1652349948152" duration="654000" />
+      <workItem from="1652349948152" duration="11314000" />
     </task>
     <servers />
   </component>
@@ -56,14 +57,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="206" key="FileChooserDialogImpl" timestamp="1643023635266">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1642160749796" />
-    <state x="686" y="206" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1643023635266" />
-    <state x="478" y="141" width="579" height="534" key="find.popup" timestamp="1641487687846">
+    <state x="478" y="141" width="579" height="534" key="find.popup" timestamp="1652367050771">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="478" y="141" width="579" height="534" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1641487687846" />
+    <state x="478" y="141" width="579" height="534" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1652367050771" />
   </component>
 </project>

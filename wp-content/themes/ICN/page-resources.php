@@ -64,22 +64,11 @@ get_header();
                                                 ?>
 
 
-                                                <?php /*=_x('Or View Online by Section', 'theme', 'ICN');*/?>
-<!--                                                <div class="clr30"></div>-->
-                                                <?php
-                                                if($pdf_sections):
-                                                    foreach ($pdf_sections as $key=>$pdf_section): ?>
-                                                        <a href="<?=$pdf_section['sub_section_link'] ?>"  target="_blank" class="section_link" data-toggle="modal" data-target="#pdf_section_<?=$key;?>"><?=$pdf_section['sub_section_title'] ?></a>
-                                                        <div class="clearfix"></div>
-                                                        <?php
-                                                    endforeach;
-                                                endif; ?>
-
                                     
                                                 <?php
                                                 if( have_rows('fact_sheets') ): ?>
                                                     <!--     Fact sheets     -->
-                                                <h2 class="mt-md-4 pb-2"> Fact Sheets</h2>
+                                                <h2> Fact Sheets</h2>
                                                 <?php
                                                  while ( have_rows('fact_sheets') ) : the_row();
 
@@ -107,6 +96,56 @@ get_header();
                                                 ?>
                                             </div>
 
+
+
+
+
+
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                                Launch demo modal
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            ...
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+
+
+
+
+
+
+                                            <?php
+                                            if($pdf_sections):
+                                                foreach ($pdf_sections as $key=>$pdf_section): ?>
+                                                    <a href="<?=$pdf_section['sub_section_link'] ?>"  target="_blank" class="section_link" data-toggle="modal" data-target="#pdf_section_<?=$key;?>"><?=$pdf_section['sub_section_title'] ?></a>
+                                                    <div class="clearfix"></div>
+                                                <?php
+                                                endforeach;
+                                            endif; ?>
+
+                                            <!-- Modal -->
                                             <?php
                                             if($pdf_sections):
                                                 foreach ($pdf_sections as $key=>$pdf_section): ?>
@@ -129,7 +168,10 @@ get_header();
                                                 endforeach;
                                             endif; ?>
 
-                                            <div class="clr20"></div>
+
+
+
+
 
                                             <?php
                                                 if(have_rows('logos')):?>
