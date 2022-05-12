@@ -79,7 +79,7 @@ get_header();
                                                 <?php
                                                 if( have_rows('fact_sheets') ): ?>
                                                     <!--     Fact sheets     -->
-                                                <h2> Fact Sheets</h2>
+                                                <h2 class="mt-md-4 pb-2"> Fact Sheets</h2>
                                                 <?php
                                                  while ( have_rows('fact_sheets') ) : the_row();
 
